@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto Condensed';
+}
+.header {
+}
+.container {
+}
+.header__inner {
+    margin-left: 20px;
+}
+.header__inner-image {
+}
+.header__inner-img {
+    width: 250px;
+    margin: 20px 0px 30px 0px;
+    border-radius: 15px;
+}
+.title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.header__inner-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.header__social-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.header__social-list {
+    list-style: none;
+}
+.header__social-list-item {
+    display: inline;
+    font-size: 18px;
+    padding-right: 20px;
+}
+.header__social-list-link {
+}
+.header__list-about {
+    margin-top: 20px;
+}
+.header__list-about-text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.header__list-about-item {
+    font-weight: 400;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+.header__table {
+}
+.header__table-text {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.table__main {
+}
+.table__main-info {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.table__main-experience {
+    font-size: 18px;
+    font-weight: 400;
+    padding-right: 80px;
+}
+.header__form-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.header__form-box {
+}
+.header__form-title {
+}
+.header__form-about-name-block {
+    padding-bottom: 5px;
+}
+.header__form-about-text {
+}
+.header__form-about-field::placeholder {
+    padding-left: 5px;
+}
+.header__form-about-email-block {
+}
+.header__form-message-block{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__form-message-text {
+}
+
+.header__form-message-textarea{
+    height: 100px;
+    width: 245px;
+    resize: none;
+}
+
+.header__form-message-textarea::placeholder{
+
+
+    
+    padding-left: 15px;
+}
+
+.header__form-button {
+    padding-top: 10px;
+}
+.header__form-btn {
+    background-color: #eee;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    border: 0;
+}
