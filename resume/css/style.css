@@ -1,27 +1,47 @@
 body{
     font-family: 'Roboto Condensed';
 }
+a{
+    text-decoration: none;
+}
 .header {
 }
 .container {
+    max-width: 1220px;
 }
 .header__inner {
     margin-left: 20px;
 }
+.header__top-box{
+    display: flex;
+}
+.header__title-box{
+    margin: 25px 0 0 20px;
+}
+
 .header__inner-image {
 }
 .header__inner-img {
     width: 250px;
     margin: 20px 0px 30px 0px;
     border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.4);
 }
+
 .title {
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 10px;
+    display: inline;
 }
 .header__inner-text {
     font-size: 18px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.header__social-box{
+    max-width: 250px;
+    border-radius: 10px;
+    position: center;
 }
 .header__social-text {
     font-size: 20px;
@@ -38,26 +58,51 @@ body{
 }
 .header__social-list-link {
 }
+.header__list-about-box{
+    max-width: 775px;
+    border-radius: 10px;
+    background-color: #b9d5e2;
+    padding: 15px;
+}
 .header__list-about {
-    margin-top: 20px;
 }
 .header__list-about-text{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 18px;
+    padding-left: 5px;
 }
+
+
 .header__list-about-item {
     font-weight: 400;
     margin-left: 20px;
     padding-bottom: 10px;
 }
+
+.header__list-about-item:hover:nth-child(even) {
+    color: red;
+}
+
+.header__list-about-item:hover:nth-child(odd) {
+    color: white;
+}
+
+
+.header__table-box{
+    max-width: 775px;
+    border-radius: 10px;
+    background-color: #e3dcee;
+    padding: 15px;
+    margin-top: 10px;
+}
+
 .header__table {
 }
 .header__table-text {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 15px;
-    margin-top: 15px;
 }
 .table__main {
 }
@@ -74,10 +119,14 @@ body{
 .header__form-title{
     font-size: 20px;
     font-weight: 700;
-    margin-top: 30px;
     padding-bottom: 10px;
 }
 .header__form-box {
+    max-width: 775px;
+    border-radius: 10px;
+    background-color: #ecafc2;
+    padding: 15px;
+    margin-top: 10px;
 }
 .header__form-title {
 }
@@ -106,9 +155,6 @@ body{
 }
 
 .header__form-message-textarea::placeholder{
-
-
-    
     padding-left: 15px;
 }
 
@@ -116,10 +162,34 @@ body{
     padding-top: 10px;
 }
 .header__form-btn {
+    font-family: inherit;
     background-color: #eee;
     font-weight: 600;
     border-radius: 5px;
     padding: 5px;
     width: 100px;
     border: 0;
+    cursor: pointer;
 }
+
+.header__form-btn:hover {
+    opacity: 0.8;
+}
+
+
+@media (max-width:650px){
+    .title{
+        font-size: 20px;
+    }
+
+    .header__inner-text{
+        font-size: 15px;
+    }
+
+    .header__social-list-link {
+        color: red;
+    }
+}
+
+
+
